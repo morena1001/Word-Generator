@@ -1,0 +1,108 @@
+body {
+    background-color: #d8d2c0;
+
+    font-family: 'Courier New', Courier, monospace;
+    /* margin: 0px 100px; */
+    /* overflow-x: hidden; */
+
+    display: flex;
+    > div {
+        flex: 1
+    }
+}
+
+.options {
+    /* border: 1px solid black; */
+    margin-right: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.preset {
+    padding-bottom: 5px;
+}
+
+.preset-input {
+    font-family: inherit;
+}
+
+.onset {
+    padding: 5px 0px;
+    margin-bottom: 17px;
+}
+
+.onset-input {
+    resize: none;
+    position: absolute;
+    font-family: inherit;
+}
+
+.nucleus{
+    padding: 5px 0px;
+    margin-bottom: 17px;
+}
+
+.nucleus-input {
+    resize: none;
+    position: absolute;
+    font-family: inherit;
+}
+
+.coda {
+    padding: 5px 0px;
+    margin-bottom: 17px;
+}
+
+.coda-input {
+    resize: none;
+    position: absolute;
+    font-family: inherit;
+}
+
+.count {
+    padding: 5px 0px;
+}
+
+.count-input {
+    font-family: inherit;
+}
+
+.syllable-count {
+    padding: 5px 0px;
+}
+
+.syl-count-input {
+    width: 100px;
+}
+
+input[type=checkbox]:hover {
+    cursor: pointer;
+}
+
+.submit {
+    font-family: inherit;
+    text-align: center;
+    width: 300px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.output {
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    height:800px;
+}
+
+.output-box {
+    position: relative;
+    overflow-y: auto;
+    max-height: 100%;
+    display: flex;
+    scrollbar-width: none;
+}
